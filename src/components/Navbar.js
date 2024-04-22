@@ -5,6 +5,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react';
 import profile from './profile.jpg'
 
 import { Link } from 'react-router-dom';
+import Home from './Home';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -151,7 +152,7 @@ export default function Navbar() {
           </>
         )}
       </Disclosure>
-      
+      <Home/>
     
     </>
   );
