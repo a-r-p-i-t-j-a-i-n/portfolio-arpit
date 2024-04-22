@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-arpit/static/css/main.9bd087c1.css",
+    "main.js": "/portfolio-arpit/static/js/main.3685082b.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio-arpit/static/js/453.1407b060.chunk.js",
+    "static/media/profile.jpg": "/portfolio-arpit/static/media/profile.f29a6863b6d0b21fbd34.jpg",
+    "static/media/news.png": "/portfolio-arpit/static/media/news.1ebbe356daefa37d06ae.png",
+    "static/media/APNAKIRANA.png": "/portfolio-arpit/static/media/APNAKIRANA.d4c8ae8da40f0d7a20d2.png",
+    "static/media/ArpitResume2024.pdf": "/portfolio-arpit/static/media/ArpitResume2024.90abedd60f212ac6bf26.pdf",
+    "static/media/INOTEBOOK.png": "/portfolio-arpit/static/media/INOTEBOOK.5bb98e9987a3b2cd7a09.png",
+    "static/media/pcboi2.webp": "/portfolio-arpit/static/media/pcboi2.0d58f2849b9cfe408d47.webp",
+    "index.html": "/portfolio-arpit/index.html",
+    "main.9bd087c1.css.map": "/portfolio-arpit/static/css/main.9bd087c1.css.map",
+    "main.3685082b.js.map": "/portfolio-arpit/static/js/main.3685082b.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio-arpit/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd087c1.css",
+    "static/js/main.3685082b.js"
+  ]
+}
