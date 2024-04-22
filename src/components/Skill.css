@@ -1,0 +1,141 @@
+.section-title {
+  color: #ffffff; /* Set text color to white */
+  font-size: 3rem; /* Adjust font size */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 5px; /* Add some space below the title */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing for better readability */
+  font-weight: bold; /* Make the text bold */
+  animation: pulseTitle 2s ease-in-out infinite alternate; /* Apply animation */
+  margin-right: 39px;
+}
+
+@keyframes pulseTitle {
+  from {
+    transform: scale(1); /* Initial scale */
+  }
+  to {
+    transform: scale(1.1); /* Scale up slightly */
+  }
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  position: relative; /* Add position relative to make absolute positioning work */
+  transform: rotate(-360deg);
+  /* Start the rotation from the top */
+}
+
+.skill-item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+ 
+  animation: rotateIcons 60s linear infinite;
+}
+
+.skill-icon-container {
+  width: 100px; /* Adjust the size of the icon container */
+  height: 100px; /* Adjust the size of the icon container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #1c0f21; /* Set background color */
+  position: relative;
+  overflow: hidden;
+  animation: rotateIcon 5s linear infinite, changeColor 10s ease-in-out infinite alternate;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg); /* Start rotation from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate 360 degrees */
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #1c0f21; /* Initial background color */
+  }
+  25% {
+    background-color: #09370b; /* Change to a different color halfway */
+  }
+  50% {
+    background-color: #810c0c; /* Return to initial color */
+  }
+  100% {
+    background-color: #000000; /* Return to initial color */
+  }
+}
+
+
+.skill-icon {
+  font-size: 3rem; /* Increase icon size slightly */
+  color: #ffffff;
+  height: 100px;
+  width: 100px; /* Set icon color to white */
+}
+
+.skill-name {
+  color: #ffffff; /* Set text color to white */
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0; /* Initially hide the skill name */
+  transition: opacity 0.3s ease-in-out; /* Add transition effect for opacity */
+}
+/* Positioning the skills in a circle */
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  position: relative; /* Add position relative to make absolute positioning work */
+  transform: rotate(-360); /* Start the rotation from the top */
+}
+.skill-item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Adjusting the position of each skill item */
+.skill-item:nth-child(1) { transform: rotate(0deg) translate(180px) rotate(0deg); }
+.skill-item:nth-child(2) { transform: rotate(51.43deg) translate(180px) rotate(-51.43deg); }
+.skill-item:nth-child(3) { transform: rotate(102.86deg) translate(185px) rotate(-102.86deg); }
+.skill-item:nth-child(4) { transform: rotate(154.29deg) translate(190px) rotate(-154.29deg); }
+.skill-item:nth-child(5) { transform: rotate(205.71deg) translate(190px) rotate(-205.71deg); }
+.skill-item:nth-child(6) { transform: rotate(257.14deg) translate(180px) rotate(-257.14deg); }
+.skill-item:nth-child(7) { transform: rotate(308.57deg) translate(180px) rotate(-308.57deg); }
+
+.skill-item:hover .skill-icon-container {
+  transform: scale(1.2); /* Expand container on hover */
+}
+.skill-name {
+  color: #ffffff; /* Set text color to white */
+  position: absolute;
+  top: calc(100% + 10px); /* Position the name below the icon with a gap of 10px */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0; /* Initially hide the skill name */
+  transition: opacity 0.3s ease-in-out; /* Add transition effect for opacity */
+}
+
+.skill-item:hover .skill-name {
+  opacity: 1; /* Show the skill name on hover */
+}

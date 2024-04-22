@@ -1,0 +1,21 @@
+
+@media only screen and (min-width: 1024px) {
+    .card-1 {
+        width: 950px ;
+        height: 400px;
+       margin-left: 165px;
+      }
+    .card-2 {
+      width: 450px ;
+      height: 260px;
+      margin-left: 165px;
+    }
+  
+   
+    .card-3 {
+      width: 450px;
+      height:260px;
+      margin-left: 235px;
+    }
+  }
+  

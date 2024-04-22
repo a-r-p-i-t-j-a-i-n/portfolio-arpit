@@ -1,0 +1,29 @@
+.custom-bg-color {
+    background-color: #1c0f21; /* Set your desired background color */
+  }
+  /* Navbar.css */
+
+/* Add styles for smaller screens */
+@media (max-width: 640px) {
+  /* Reduce height of navbar */
+  .custom-bg-color {
+    height: 10vh; /* You can adjust the height as needed */
+  }
+  
+  /* Adjust padding for smaller screens */
+  .px-2 {
+    padding-left: 1rem; /* Adjust padding as needed */
+    padding-right: 1rem; /* Adjust padding as needed */
+  }
+  
+  /* Adjust font size and padding for menu items */
+  .sm\\:block {
+    font-size: 0.8rem; /* Adjust font size as needed */
+  }
+  .px-3 {
+    padding-left: 0.5rem; /* Adjust padding as needed */
+    padding-right: 0.5rem; /* Adjust padding as needed */
+  }
+}
+
+/* You can add more styles for smaller screens as needed */
